@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'AnykFont';
+    src: url('fonts/Anyk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+head{
+}
+h1{
+    font-family: 'AnykFont', serif;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 33;
+}
+body{
+    font-family: 'OldEnglishFont',serif;
+    color: black;
+    background-color: cornsilk;    
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header{
+    color: burlywood;
+    padding-top: 25;
+    padding-bottom: 20;
+}
+li{
+    font-family: 'OldEnglishFont',serif;
+    color: black;
+}
+h2{
+    padding-top: 12;
+    padding-bottom: 12;
+}
